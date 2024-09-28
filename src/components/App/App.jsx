@@ -1,9 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import swapiService from '../../services/swapiService.js';
+import HeaderSection from '../HeaderSection/HeaderSection.jsx';
+
+const swapi = new swapiService();
+swapi.getAllCharecters();
+swapi.getAllResources();
 
 function App() {
   return (
     <div className="App">
+      <HeaderSection/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
