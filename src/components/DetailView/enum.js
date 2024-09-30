@@ -1,0 +1,1 @@
+export const IMG_BASE_URL = 'https://starwars-visualguide.com/assets/img/'
