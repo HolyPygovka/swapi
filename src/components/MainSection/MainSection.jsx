@@ -4,7 +4,7 @@ import { DetailView } from "../DetailView/DetailView";
 import { getCharacters } from "./services";
 import { sections } from "./enum";
 
-//try lifting state up
+// !info! try lifting state up
 export const MainSection = () => {
     const [activeSection, setActiveSection] = useState(sections.CHARACTERS);
     const [characters, setCharacters] = useState([]);
